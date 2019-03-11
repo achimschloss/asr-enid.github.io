@@ -8,20 +8,18 @@ Once master data has been released by the end user for a service, it no longer h
 
 ###netID supports the following claims
 
-Claim | 
------------- | -------------
-gender | gender of the end user
-given_name | first name(s) of the end user
-family_name | Last name(s) of the end user
-birthdate | Date of birth of the end user
-email | email address of the end user
-email_verified | verification status of the email address of the end user
-postal_code | the postal code of the end user's address.
-locality | city of the address of the end user
-street_address | street and house number of the end user's address
-country | country of the end user's address
-phone_number | phone number of the end user
-phone_number_verified | verification status of the end user's phone number
+- gender | gender of the end user
+- given_name | first name(s) of the end user
+- family_name | Last name(s) of the end user
+- birthdate | Date of birth of the end user
+- email | email address of the end user
+- email_verified | verification status of the email address of the end user
+- postal_code | the postal code of the end user's address.
+- locality | city of the address of the end user
+- street_address | street and house number of the end user's address
+- country | country of the end user's address
+- phone_number | phone number of the end user
+- phone_number_verified | verification status of the end user's phone number
 
 The availability may vary depending on the account provider of the end user, so that cases where not all requested claims are delivered must be handled by the client.
 
