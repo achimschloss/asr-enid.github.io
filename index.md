@@ -6,7 +6,7 @@ The OpenID Connect/OAuth2 mechanisms of the scope and claim definitions serve th
 Every OpenID Connect call must always request the openid scope. In addition, the required master data must be formulated as essential claims.
 Once master data has been released by the end user for a service, it no longer has to be released until revoked, and the release is saved.
 
-###netID supports the following claims
+### netID supports the following claims
 
 - gender | gender of the end user
 - given_name | first name(s) of the end user
