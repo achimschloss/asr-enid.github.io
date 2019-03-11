@@ -1,7 +1,7 @@
 # Developer Documentation
 ## Claims und Scopes
 
-Each initiation of an SSO process with netID is provided with information about what data is expected from the end-user based on the call. /
+Each initiation of an SSO process with netID is provided with information about what data is expected from the end-user based on the call.
 The OpenID Connect/OAuth2 mechanisms of the scope and claim definitions serve this purpose.
 Every OpenID Connect call must always request the openid scope. In addition, the required master data must be formulated as essential claims.
 Once master data has been released by the end user for a service, it no longer has to be released until revoked, and the release is saved.
