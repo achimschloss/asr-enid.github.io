@@ -7,6 +7,7 @@ Every OpenID Connect call must always request the openid scope. In addition, the
 Once master data has been released by the end user for a service, it no longer has to be released until revoked, and the release is saved.
 
 *netID supports the following claims*
+
 Claim | Meaning
 ------------ | -------------
 gender | gender of the end user
